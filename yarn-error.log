@@ -1,0 +1,110 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_modules\yarn\bin\yarn.js
+
+PATH: 
+  E:\xampp8.1.6\htdocs\0goshops_prod\goshops_source\admin_frontend\node_modules\.bin;C:\Python27\;C:\Python27\Scripts;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;E:\xampp8.1.6\php;C:\xampp\php;E:\xampp7.3.2\php;E:\xampp\php;C:\composer;C:\Program Files\Git\cmd;C:\ProgramData\chocolatey\bin;C:\Program Files (x86)\DevDesktop\drush_10;E:\+drup\drush_10;C:\Program Files\PuTTY\;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;%NVM_HOME%;%NVM_SYMLINK%;C:\Program Files\dotnet\;C:\Users\CompuHome\AppData\Local\Microsoft\WindowsApps;C:\Users\CompuHome\AppData\Roaming\Composer\vendor\bin;C:\Users\CompuHome\AppData\Roaming\npm;C:\Users\CompuHome\AppData\Local\GitHubDesktop\bin;C:\Users\CompuHome\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Users\CompuHome\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\CompuHome\.dotnet\tools
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  18.16.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/@ant-design/icons/-/icons-4.8.1.tgz: ESOCKETTIMEDOUT
+      at ClientRequest.<anonymous> (C:\Users\CompuHome\AppData\Roaming\nvm\v18.16.0\node_modules\yarn\lib\cli.js:141517:19)
+      at Object.onceWrapper (node:events:627:28)
+      at ClientRequest.emit (node:events:513:28)
+      at TLSSocket.emitRequestTimeout (node:_http_client:848:9)
+      at Object.onceWrapper (node:events:627:28)
+      at TLSSocket.emit (node:events:525:35)
+      at Socket._onTimeout (node:net:570:8)
+      at listOnTimeout (node:internal/timers:569:17)
+      at process.processTimers (node:internal/timers:512:7)
+
+npm manifest: 
+  {
+    "name": "githubit-dashboard",
+    "version": "0.1.0",
+    "private": true,
+    "dependencies": {
+      "@ant-design/icons": "^4.7.0",
+      "@babel/runtime": "^7.18.0",
+      "@chatscope/chat-ui-kit-react": "^1.9.3",
+      "@ckeditor/ckeditor5-build-classic": "^34.2.0",
+      "@ckeditor/ckeditor5-react": "^5.0.2",
+      "@reduxjs/toolkit": "^1.8.3",
+      "antd": "^4.20.6",
+      "antd-table-saveas-excel": "^2.2.1",
+      "apexcharts": "^3.35.5",
+      "autosize": "^5.0.1",
+      "axios": "^0.27.2",
+      "date-fns": "^2.28.0",
+      "downloadjs": "^1.4.7",
+      "firebase": "^9.9.3",
+      "google-map-react": "^2.1.10",
+      "hex-color-to-color-name": "^1.0.2",
+      "i18next": "^21.0.2",
+      "i18next-browser-languagedetector": "^6.1.2",
+      "i18next-http-backend": "^1.3.1",
+      "idb-keyval": "^6.2.0",
+      "lodash": "^4.17.21",
+      "moment": "^2.29.3",
+      "node-sass": "^7.0.1",
+      "qs": "^6.11.0",
+      "react": "^17.0.0",
+      "react-apexcharts": "^1.4.0",
+      "react-color": "^2.17.3",
+      "react-css-theme-switcher": "^0.3.0",
+      "react-custom-scrollbars": "^4.2.1",
+      "react-date-range": "^1.4.0",
+      "react-dom": "^17.0.0",
+      "react-google-autocomplete": "^2.7.0",
+      "react-google-recaptcha": "^3.1.0",
+      "react-i18next": "^11.18.0",
+      "react-icons": "^4.4.0",
+      "react-redux": "^8.0.2",
+      "react-resize-detector": "^7.1.2",
+      "react-router-dom": "^6.3.0",
+      "react-scripts": "5.0.1",
+      "react-toastify": "^9.0.1",
+      "redux": "^4.2.0",
+      "redux-devtools-extension": "^2.13.9",
+      "redux-persist": "^6.0.0",
+      "remixicon-react": "^1.0.0",
+      "web-vitals": "^2.1.4"
+    },
+    "scripts": {
+      "start": "react-scripts start",
+      "build": "react-scripts build",
+      "test": "react-scripts test",
+      "eject": "react-scripts eject"
+    },
+    "eslintConfig": {
+      "extends": [
+        "react-app",
+        "react-app/jest"
+      ]
+    },
+    "browserslist": {
+      "production": [
+        ">0.2%",
+        "not dead",
+        "not op_mini all"
+      ],
+      "development": [
+        "last 1 chrome version",
+        "last 1 firefox version",
+        "last 1 safari version"
+      ]
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

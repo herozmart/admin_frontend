@@ -1,0 +1,34 @@
+.ant-col-spin {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+}
+
+.delivery-container {
+  margin-top: 20px;
+  max-width: 100%;
+  width: 100%;
+  justify-content: center;
+
+  .ant-row {
+    width: 100%;
+
+    .ant-col {
+      width: 100%;
+
+      .ant-card {
+        border-radius: 8.5px;
+        box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+        width: 100%;
+        overflow: hidden;
+
+        .icon-center {
+          position: absolute;
+          top: 5px;
+          right: 8px;
+        }
+      }
+    }
+  }
+}
